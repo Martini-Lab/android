@@ -18,6 +18,23 @@
            sync-c="true"
            sync-j="4" />
 
+    <!-- Hybris repos -->
+  <project path="hybris-patches" name="Halium/hybris-patches" revision="halium-9.0" />
+  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="master" />
+  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="master" />
+  <project path="external/droidmedia" name="sailfishos/droidmedia" revision="master" />
+  <project path="external/audioflingerglue" name="mer-hybris/audioflingerglue" revision="master" />
+  <project path="external/busybox" name="mer-hybris/android_external_busybox_prebuilt" revision="master" />
+  <project path="external/gpg" name="ubports/android_external_gpg" revision="halium-9.0"  />
+  <project path="external/selinux_stubs" name="mer-hybris/android_external_selinux_stubs" revision="master" />
+  <project path="halium/biometryd" name="ubports/biometryd" revision="xenial_-_edge_-_android8" />
+  <project path="halium/fake_crypt" name="Halium/fake_crypt" revision="master" />
+  <project path="halium/devices" name="Halium/halium-devices" revision="halium-9.0" />
+  <project path="halium/halium-boot" name="Halium/halium-boot" revision="halium-9.0" />
+  <project path="halium/libhybris" name="Halium/libhybris" revision="halium-9.0" />
+  <project path="halium/platform-api" name="ubports/platform-api" revision="xenial_-_edge_-_android8"  />
+  <project path="halium/stub_netd" name="Halium/stub_netd" revision="halium-9.0" />
+  
   <!-- AOSP Projects -->
 
   <project path="build/make" name="LineageOS/android_build" groups="pdk" >
